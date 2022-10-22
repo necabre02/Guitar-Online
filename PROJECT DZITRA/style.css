@@ -1,0 +1,162 @@
+img{
+    margin: 6.5% 0;
+}
+header{
+    width: 100%;
+    background-image: linear-gradient( 109.6deg,  rgba(245,56,56,1) 11.2%, rgba(234,192,117,1) 78% );
+    color: black;
+    font-size: 230%;
+    display: inline-block;
+
+}
+body{
+    margin: 0;
+    align-items: CENTER;
+    /* font-family: 'Arvo', serif; */
+    font-family: 'Abril Fatface', cursive;
+/* font-family: 'Arvo', serif; */
+}
+h1{
+    margin: 0 auto;
+padding: 0.13em;
+}
+     /* GORNjI DEO */
+
+
+
+
+
+
+     
+     /* DONJI DEO */
+
+.openstrings{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+    width: 5em;
+    position: absolute;
+     margin: -22% 79% 50% 21%;
+    
+
+}
+
+.smoke{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 6;
+    position: absolute;
+    margin: -20.6% 52%  60% 48% ;
+    gap: 1.7em;
+}
+.smokeStrings{
+font-size: 150%;
+position: relative;
+}
+
+
+
+.strings {
+height: 1.1em;
+
+}
+.emptyStrings{
+    
+    background-color: transparent;
+    border: none;
+}
+
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  .nula{
+      left: -120px;
+
+  }
+
+  .tri{
+left:  -60px;
+  }
+  .pet{
+      left: -13px;
+  }
+  .sest{
+      right: -15px;
+  }
+
+  span {
+      position: relative;
+      top: -3px;
+  }
+
+button{
+    width: 40px;
+    height: 40px;
+
+
+}
+
+.dugme{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+     position: relative;
+     top: -5px;
+    
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    color:  rgb(255, 255, 255);
+    border-radius: 4px;
+
+}
+.dugme1{
+    width: 30px;
+    height: 15px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+     position: relative;
+     top: -5px;
+    
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    color:  rgb(255, 255, 255);
+    border-radius: 4px;
+
+}
+
+.animation1{
+    background-color: rgb(255, 255, 255);
+    animation-name: example1;
+    animation-duration: 1s;
+    animation-direction: alternate;
+  }
+
+@keyframes example1 {
+    0% { opacity: 1;}
+    20% { background-image: url(doge.jpg);}
+    90%{background-color: rgb(0, 0, 0);  opacity: 0; border: 3PX Solid black; background-image: url(doge.jpg); }
+    100%{background-color: rgb(0, 0, 0);  opacity: 0; border: 3PX Solid black; background-image: url(doge.jpg);}
+  }
+
+  .animation2{
+    background-color: rgb(255, 255, 255);
+    animation-name: example1;
+    animation-duration: 1s;
+    animation-direction: alternate;
+  }
+
+@keyframes example2 {
+    0% { opacity: 1;}
+    20% {}
+    90%{opacity:0.1 }
+    100%{background-color: rgb(0, 0, 0);  opacity: 0; border: 3PX Solid black; }
+  }
+
+.lesson {
+    position: relative;
+    left: 1370px;
+    bottom: 400px;
+}

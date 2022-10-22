@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZITRA SIMULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <h1> <center>DŽITRA SIMULATOR</center> </h1>
+    </header>
+
+    <img src="lespaul.jpg" alt="">
+
+    <div class="openstrings">
+        <button onclick="pustiEE()" type="button" class=" E , dugme1 , strings">
+            <span>q</span> 
+        </button>
+        <button onclick="pustiA()" type="button" class=" A , dugme1 , strings">
+             <span>w</span>
+        </button>
+        <button onclick="pustiD()" type="button" class=" D ,  dugme1  , strings">
+            <span>e</span>
+        </button>
+        <button onclick="pustiG()" type="button" class=" G ,  dugme1  , strings">
+            <span>r</span>
+        </button> 
+
+        <button onclick="pustiB()" type="button" class=" B ,  dugme1 , strings">
+            <span>t</span>
+        </button>
+
+        <button onclick="pustie()" type="button" class=" e , dugme1 , strings">
+            <span>y</span>
+        </button>
+        <div class="lesson">
+            <p>Smoke On the Water</p> 
+            <p>0 3 5 <br> 0 3 6 5 <br> 0 3 5
+            <br> 3 0</p>
+    
+    
+        </div>
+    </div>
+ 
+
+<audio src="EE.mp3" class="lowEString"></audio>
+<audio src="a.mp3" class="aString"></audio>
+<audio src="d.mp3" class="dString"></audio>
+<audio src="g.mp3" class="gString"></audio>
+<audio src="b.mp3" class="bString">
+    <!-- <source  type="audio/ogg"> -->
+</audio>
+<audio  class="highEString">
+    <source src="e.mp3" type="audio/mp3">
+</audio>
+
+<audio src="0.mp3" class="zero"></audio>
+<audio src="3.mp3" class="three"></audio>
+<audio src="5.mp3" class="five"></audio>
+<audio src="6.mp3" class="six"></audio>
+
+  <!-- <button onclick="playAudio()" type="button">Play Audio</button> -->
+
+<div class="smoke">
+<button class="smokeStrings , dugme , sest">6</button>
+<button class="smokeStrings , dugme , pet">5</button>
+<button class="smokeStrings , emptyStrings">‎</button>
+<button class="smokeStrings , dugme , tri">3</button>
+<button class="smokeStrings , emptyStrings">‎</button>
+<button  class="smokeStrings , emptyStrings">‎</button>
+<button class="smokeStrings , dugme , nula">0</button>
+
+</div>
+
+    
+</body>
+<script src="script.js"></script>
+</html>
